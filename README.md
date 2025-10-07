@@ -77,13 +77,19 @@ This project analyzes historical sales data to uncover business insights, trends
    ```bash
    git clone https://github.com/yourusername/sales-data-insights-and-forecasting.git
 
+   python -m venv venv  
+source venv/bin/activate   # or `venv\Scripts\activate` on Windows  
+pip install -r requirements.txt  
+jupyter notebook sales-data-insights-and-forecasting.ipynb  
 
-<img width="790" height="490" alt="sales by month" src="https://github.com/user-attachments/assets/a87d18b7-47f7-4742-9241-90e36f2a3dc2" />
 
-<img width="790" height="490" alt="sales by city" src="https://github.com/user-attachments/assets/561e86ba-e8bf-4529-a67a-3b8109d7705e" />
-
-<img width="990" height="590" alt="product wise total sales" src="https://github.com/user-attachments/assets/6ee92c3a-dbbc-46df-99ca-549b6ea19cc3" />
-
-<img width="868" height="547" alt="order volume" src="https://github.com/user-attachments/assets/b7308a76-ba81-4480-99de-3ecbf84b66dc" />
+[Monthly Sales]
+<img width="700" height="490" alt="sales by month" src="https://github.com/user-attachments/assets/a87d18b7-47f7-4742-9241-90e36f2a3dc2" />
+[City-Wise Sales]
+<img width="700" height="490" alt="sales by city" src="https://github.com/user-attachments/assets/561e86ba-e8bf-4529-a67a-3b8109d7705e" />
+[Top Products]
+<img width="700" height="590" alt="product wise total sales" src="https://github.com/user-attachments/assets/6ee92c3a-dbbc-46df-99ca-549b6ea19cc3" />
+[Order Volume]
+<img width="700" height="547" alt="order volume" src="https://github.com/user-attachments/assets/b7308a76-ba81-4480-99de-3ecbf84b66dc" />
 
 
